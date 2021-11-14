@@ -1,0 +1,43 @@
+/* Diseño */
+
+.diseño {
+    background-color: black;
+
+    .mainDiseño {
+        padding-top: 5rem;
+        padding-bottom: 3rem;
+
+        .mainDiseño_texto {
+            color: white;
+            line-height: 1.6;
+            font-family: 'Lato', sans-serif, 'regular';
+            text-align: center;
+            padding-bottom: 2rem;   
+
+        }
+    }
+}
+
+.tituloDescripcion {
+    color: #37B5FF;
+}
+
+.blahDiseño {
+    padding-right: 3rem;
+    padding-left: 3rem;
+}
+
+.detalle{
+    background-color: black;
+}
+
+.aclaracion {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+
+
+

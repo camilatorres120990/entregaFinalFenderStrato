@@ -1,0 +1,124 @@
+/* VARIABLE*/
+
+$teal: #37B5FF;
+$alturahome: 325px; /* Operación de multiplicar aplicada en línea 189*/
+
+/* Texto general */
+
+.tituloPrincipal {
+    color: $teal;
+    font-family: 'Lato', sans-serif, 'black';
+    font-size: 300%;
+    text-align:left;
+    margin-right: 40rem;
+    margin-left: 12rem;  
+    padding-top: 10rem; 
+
+    .destacada {
+        font-family: 'Alfa Slab One', 'cursive';
+        font-size: 160%;
+        animation-duration: 2s; /* Animación*/ 
+        animation-name: aparecer;
+        animation-timing-function: ease-in;
+        
+        @keyframes aparecer {
+            0% {
+                opacity: 0;
+              }
+              100% {
+                opacity: 1;
+              }  
+        }
+    }
+    
+        @media (max-width: 480px){
+            .tituloPrincipal{
+                font-size: 200%;
+            }
+
+        @media (max-width: 767px){
+            .tituloPrincipal{
+                font-size: 300%;   
+            }
+        } 
+    }
+}
+ 
+h1 {
+    color: $teal;
+    font-family: 'Lato', sans-serif, 'black';
+    text-align: center;
+
+    @media (max-width: 480px){
+        h1 {
+            font-size: 130%;
+        }
+    }
+}
+
+
+h2 {
+    color: $teal;
+    font-family: 'Lato', sans-serif, 'black';
+    text-align: center;
+
+    @media (max-width: 480px){
+        h2 {
+            font-size: 130%;
+        }
+    }
+    
+    @media (max-width: 480px){
+        h2 {
+            color: $teal;
+            font-family: 'Lato', sans-serif, 'black';
+            text-align: center;
+            font-size: 130%;
+        }
+    }
+}
+
+
+h3 {
+   color:black;
+   font-family: 'Lato', sans-serif, 'black';
+   text-align:center;
+   text-transform: uppercase;
+
+    @media (max-width: 767px){
+        h3 {
+            color:black;
+            font-family: 'Lato', sans-serif, 'black';
+            text-align:center;
+            font-size: 130%;
+        }
+    }
+
+    @media (max-width: 480px){
+        h3 {
+            color:black;
+            font-family: 'Lato', sans-serif, 'black';
+            text-align:center;
+            font-size: 130%;
+        }
+    }
+    
+}
+
+p {
+    color: white;
+    line-height: 1.6;
+    font-family: 'Lato', sans-serif, 'regular';
+    text-align: center;
+
+    @media (max-width: 480px){
+        p { 
+            font-size: 80%;
+            padding-right: 2rem;
+            padding-left: 2rem;
+        }
+    }
+}
+
+
+

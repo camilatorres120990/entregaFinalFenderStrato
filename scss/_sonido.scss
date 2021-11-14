@@ -1,0 +1,54 @@
+/* Sonido */
+
+.sonido {
+    background: url('../imagenes/sonido.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mainSonido {
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+
+    .mainSonido_titulo {
+        color: black;
+        font-family: 'Lato', sans-serif, 'black';
+        text-align: center;
+
+        @media (max-width: 480px){
+            .mainSonido_titulo {
+                font-size: 130%;
+            }
+        }
+
+        @media (max-width: 767px){
+            .mainSonido_titulo {
+                font-size: 130%;
+            }
+        }
+    }
+    
+    .mainSonido_texto {
+        color: black;
+        line-height: 1.6;
+        font-family: 'Lato', sans-serif, 'regular';  
+        
+        
+        @media (max-width: 767px){
+            .mainSonido_texto { 
+                padding-right: 2rem;
+                padding-left: 2rem;  
+            }
+        }
+    }
+
+    .ventanitaMolesta{
+        display:none;
+    }
+    
+    .video1 {
+        padding-bottom: 2rem;
+    }  
+
+

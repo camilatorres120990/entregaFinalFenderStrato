@@ -1,0 +1,21 @@
+/* Modelos */
+
+.modelos {
+    background-color: black;
+}
+
+.mainModelos {
+    background-color: black;
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+  
+    .mainModelos_texto {
+        padding-bottom: 2rem;
+    }
+}
+
+.nombresDebajo {
+    display: flex;
+    justify-content: center;
+    color:#37B5FF;
+}
